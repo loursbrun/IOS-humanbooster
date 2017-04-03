@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222F60421E924BCE00977557 /* API_KEY.plist in Resources */ = {isa = PBXBuildFile; fileRef = 222F60411E924BCE00977557 /* API_KEY.plist */; };
 		224935BD1E855C9A00839256 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224935BC1E855C9A00839256 /* FlickrService.swift */; };
 		227C64991E850FBC00244015 /* ImageListe.plist in Resources */ = {isa = PBXBuildFile; fileRef = 227C64981E850FBC00244015 /* ImageListe.plist */; };
 		227C649B1E85134C00244015 /* ImageListe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C649A1E85134C00244015 /* ImageListe.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		222F60411E924BCE00977557 /* API_KEY.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = API_KEY.plist; sourceTree = "<group>"; };
 		224935BC1E855C9A00839256 /* FlickrService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
 		227C64981E850FBC00244015 /* ImageListe.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageListe.plist; sourceTree = "<group>"; };
 		227C649A1E85134C00244015 /* ImageListe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageListe.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 				227E5D061E8417330060BC74 /* ImageCollectionViewCell.swift */,
 				227C64981E850FBC00244015 /* ImageListe.plist */,
 				224935BC1E855C9A00839256 /* FlickrService.swift */,
+				222F60411E924BCE00977557 /* API_KEY.plist */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				227E5CFD1E8413C90060BC74 /* LaunchScreen.storyboard in Resources */,
+				222F60421E924BCE00977557 /* API_KEY.plist in Resources */,
 				227E5CFA1E8413C90060BC74 /* Assets.xcassets in Resources */,
 				227C64991E850FBC00244015 /* ImageListe.plist in Resources */,
 				227E5CF81E8413C90060BC74 /* Main.storyboard in Resources */,
