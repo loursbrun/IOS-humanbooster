@@ -34,7 +34,7 @@ class FlickrService {
     var titles: [String] = []
     
     var imagesUrl: [String] = []
-    
+    var key = ""
     
     
     
@@ -44,8 +44,27 @@ class FlickrService {
         let session = URLSession.shared
         
         
+         print("****************  API KEY  *****************")
+        
+        
+        
+        if let path = Bundle.main.path(forResource: "API_KEY", ofType: "plist"),
+            let data = NSDictionary(contentsOfFile: path) {
+             key = data["flikr_api_key"] as! String
+            print(key)
+            
+        }
+
+
+        
+        
+        
         // URL API Flikr
-        let imagesGetURL = URL(string: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=68f9a3498ff770330ef51429836ba68a&text=sport&format=json&nojsoncallback=1&api_sig=a2adb144d9d94727064938568327cce7")!
+        let imagesGetURL = URL(string: "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(key)&text=sport&format=json&nojsoncallback=1&api_sig=a2adb144d9d94727064938568327cce7")!
+        
+        
+        
+        
         
         
         //var requestImages = URLRequest(url: imagesGetURL)

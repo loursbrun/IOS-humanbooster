@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   API_KEY.plist
-   ImageGallery
-
-   Created by Fabien Brun on 03/04/2017.
-   Copyright (c) 2017 fabienbrun. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>flikr_api_key</key>
+	<string>68f9a3498ff770330ef51429836ba68a</string>
+</dict>
 </plist>
